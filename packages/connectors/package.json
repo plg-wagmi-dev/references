@@ -1,5 +1,5 @@
 {
-  "name": "@wagmi/connectors",
+  "name": "@plg-wagmi/connectors",
   "description": "A collection of connectors for wagmi",
   "license": "MIT",
   "version": "2.6.3",
@@ -89,10 +89,7 @@
     "/dist"
   ],
   "sideEffects": false,
-  "contributors": [
-    "awkweb.eth <t@wagmi.sh>",
-    "jxom.eth <j@wagmi.sh>"
-  ],
+  "contributors": ["awkweb.eth <t@wagmi.sh>", "jxom.eth <j@wagmi.sh>"],
   "homepage": "https://wagmi.sh",
   "ethereum": "wagmi-dev.eth",
   "funding": [
