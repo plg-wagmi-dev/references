@@ -2,18 +2,18 @@
   "name": "@plg-wagmi/connectors",
   "description": "A collection of connectors for wagmi",
   "license": "MIT",
-  "version": "2.6.3",
+  "version": "2.6.4",
   "scripts": {
     "build": "tsup",
     "dev": "DEV=true tsup"
   },
   "peerDependencies": {
-    "@wagmi/chains": ">=1.3.0",
+    "@plg-wagmi/chains": ">=1.3.0",
     "typescript": ">=5.0.4",
     "viem": ">=0.3.35"
   },
   "peerDependenciesMeta": {
-    "@wagmi/chains": {
+    "@plg-wagmi/chains": {
       "optional": true
     },
     "typescript": {
@@ -32,7 +32,7 @@
     "eventemitter3": "^4.0.7"
   },
   "devDependencies": {
-    "@wagmi/chains": "workspace:*",
+    "@plg-wagmi/chains": "1.4.1",
     "viem": "^1.0.0"
   },
   "type": "module",
